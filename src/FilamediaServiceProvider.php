@@ -8,13 +8,13 @@ use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
+use Haugen86\Filamedia\Commands\FilamediaCommand;
+use Haugen86\Filamedia\Testing\TestsFilamedia;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Haugen86\Filamedia\Commands\FilamediaCommand;
-use Haugen86\Filamedia\Testing\TestsFilamedia;
 
 class FilamediaServiceProvider extends PackageServiceProvider
 {
