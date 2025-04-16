@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Haugen86\Filamedia\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamediaCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filamedia';
 
     public $description = 'My command';
 

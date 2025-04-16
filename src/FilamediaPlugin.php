@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Haugen86\Filamedia;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class FilamediaPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'filamedia';
     }
 
     public function register(Panel $panel): void
